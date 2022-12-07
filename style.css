@@ -1,0 +1,132 @@
+
+   body{
+    background-color: rgb(255, 254, 248);
+   }
+
+   @import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap'); 
+h1{
+    float: left;
+    color: rgb(255, 255, 255);
+    text-decoration: overline;
+    font-size: 30px;
+    text-align: start;
+    text-shadow: 4px 4px 6px rgb(104, 17, 56);
+    font-family: 'great Vibes', cursive;
+   
+}
+
+.lonely{
+ column-width: 90px; 
+ column-count: 3;
+ column-gap: 2em;
+ column-rule: 2.5px solid black; 
+ color: rgb(0, 0, 0);
+
+}
+.ping{
+    width: 219px; 
+    height: 15em;
+    text-align: justify;
+    float: left;
+    margin: 0 0 0.5em 0.5em;
+    max-width: 50%;
+    
+  }
+
+.raw{
+    column-width: 90px; 
+    column-count: 3;
+    column-gap: 2em;
+    column-rule: 1px solid rgb(255, 255, 255);
+    background-color: rgb(208, 36, 108); 
+    color: rgb(255, 255, 255);
+    padding-left: 50px;   
+}
+
+.fruity{
+    column-width: 90px; 
+    column-count: 3;
+    column-gap: 2em;
+    column-rule: 2px solid rgb(46, 47, 104);
+    padding-left: 50px;   
+   }
+
+   p{
+    color: rgb(0, 0, 0);
+   }
+
+
+.container{
+    width: 70%;
+    margin: auto;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+
+}
+header {
+    background-color: rgb(200, 27, 110);
+}
+
+header::after{
+    content: '';
+    display: table;
+    clear: both;
+}
+
+nav{
+    float: right;
+}
+
+nav ul{
+   margin: 0;
+   padding: 0;
+   list-style: none;
+
+}
+
+nav li{
+    display: inline-block;
+    margin-left: 60px;
+    padding-top: 10px;
+
+    position: relative;
+
+
+}
+
+nav a{
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 20px;
+
+}
+
+nav a:hover{
+    color:black;
+}
+
+nav a::before{
+    content: '';
+    display: block;
+    height: 5px;
+    width: 100%;
+    background-color: black;
+
+    position: absolute;
+    top: 0;
+    width: 0%;
+    transition: 185ms;
+
+}
+
+nav a:hover::before{
+    width: 100%;
+}
+
+.cc{
+    margin: 60;
+    padding: 5%;
+}
+
+
+
